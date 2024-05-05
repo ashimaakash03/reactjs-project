@@ -5,6 +5,10 @@ function App() {
     <>
       <div className="App">Hello World...!!!</div>
       <Hello />
+      <Hello />
+      <Hello />
+      <Hello />
+      <Hello />
     </>
   );
 }
