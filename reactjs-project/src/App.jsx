@@ -1,11 +1,12 @@
-function App() {
-  
+import Hello from "./components/Hello";
 
+function App() {
   return (
-    <div className="App">
-      Hello World...!!!
-    </div>
-  )
+    <>
+      <div className="App">Hello World...!!!</div>
+      <Hello />
+    </>
+  );
 }
 
-export default App
+export default App;
