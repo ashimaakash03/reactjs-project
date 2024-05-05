@@ -4,9 +4,19 @@ function App() {
   return (
     <>
       <div className="App">Hello World...!!!</div>
-      <Hello name="Daniel" message="Hello" age="25" />
-      <Hello name="Emma" message="Hola" age="28" />
-      <Hello name="Rupert" message="Hi" age="26" />
+      <Hello
+        name="Daniel Radcliffe"
+        message="Hello"
+        age="25"
+        role="Harry Potter"
+      />
+      <Hello
+        name="Emma Watson"
+        message="Hola"
+        age="28"
+        role="Hermione Granger"
+      />
+      <Hello name="Rupert Grint" message="Hi" age="26" role="Ron Weasley" />
     </>
   );
 }
