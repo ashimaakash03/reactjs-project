@@ -12,7 +12,11 @@ const Counter = () => {
   }
 
   function increaseIncrement() {
-    setIncrement(increment + 2);
+    setIncrement(increment + 1);
+  }
+
+  function decreaseIncrement() {
+    setIncrement(increment - 1);
   }
   return (
     <div>
@@ -21,7 +25,8 @@ const Counter = () => {
       <button onClick={decreaseCount}>Decrement</button>
 
       <h2>Incrementing the value by: {increment}</h2>
-      <button onClick={increaseIncrement}>Increment</button>
+      <button onClick={increaseIncrement}>Increase Increment</button>
+      <button onClick={decreaseIncrement}>Increase Increment</button>
     </div>
   );
 };
