@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-function Hello(props) {
+function Hello({person}) {
   // eslint-disable-next-line react/prop-types
   return (
     <h2>
-      {props.person.message} {props.person.name}. You play {props.person.role}.
-      Numbers: {props.person.numbers}
+      {person.message} {person.name}. You play {person.role}.
+      Numbers: {person.numbers}
     </h2>
   );
 }
