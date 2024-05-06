@@ -4,11 +4,7 @@ import True from "./True";
 const Conditional = () => {
   const condition = true;
 
-  if (condition) {
-    return <True />;
-  } else {
-    return <False />;
-  }
+  return condition ? <True /> : <False />;
 };
 
 export default Conditional;
