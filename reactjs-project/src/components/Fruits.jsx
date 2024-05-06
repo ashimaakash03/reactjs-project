@@ -2,9 +2,11 @@ const Fruits = () => {
   const fruits = ["Apple", "Mango", "Banana", "Orange", "Pineapple"];
   return (
     <div>
-      {fruits.map((fruit) => (
-        <h2 key={fruit}>{fruit}</h2>
-      ))}
+      <ul>
+        {fruits.map((fruit) => (
+          <li key={fruit}>{fruit}</li>
+        ))}
+      </ul>
     </div>
   );
 };
