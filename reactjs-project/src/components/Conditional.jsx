@@ -1,5 +1,5 @@
 const Conditional = () => {
-  //const condition = false;
+ // const condition = false;
 
 };
 
