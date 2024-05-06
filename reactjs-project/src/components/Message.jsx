@@ -1,7 +1,10 @@
 const Message = () => {
+    const handleClick= ()=>{
+        alert("Button was clicked...")
+    }
   return (
     <div>
-      <button>Click Here to get a message...</button>
+      <button onClick={handleClick}>Click Here to get a message...</button>
     </div>
   );
 };
