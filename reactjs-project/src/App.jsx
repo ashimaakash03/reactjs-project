@@ -1,22 +1,17 @@
 import Hello from "./components/Hello";
 
 function App() {
+
+  const numbers= [1,4, 9, 16, 25];
   return (
     <>
       <div className="App">Hello World...!!!</div>
       <Hello
         name="Daniel Radcliffe"
         message="Hello"
-        age="25"
         role="Harry Potter"
+        numbers= {numbers}
       />
-      <Hello
-        name="Emma Watson"
-        message="Hola"
-        age="28"
-        role="Hermione Granger"
-      />
-      <Hello name="Rupert Grint" message="Hi" age="26" role="Ron Weasley" />
     </>
   );
 }
