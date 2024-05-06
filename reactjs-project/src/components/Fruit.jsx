@@ -1,10 +1,12 @@
 // eslint-disable-next-line react/prop-types
-const Fruit = ({ name, price }) => {
+const Fruit = ({ name, price, available }) => {
   // eslint-disable-next-line react/prop-types
   return (
     <>
       {/*eslint-disable-next-line react/prop-types*/}
-      Name: {name}. Price: ${price}
+      <li>
+        {name}. ${price}. {available ? "Available" : ""}
+      </li>
     </>
   );
 };
