@@ -1,11 +1,11 @@
-import Conditional from "./components/Conditional";
-//import Fruits from "./components/Fruits";
+//import Conditional from "./components/Conditional";
+import Fruits from "./components/Fruits";
 function App() {
   return (
     <>
       <div className="App">
-        {/* <Fruits /> */}
-        <Conditional />
+        <Fruits />
+        {/* <Conditional /> */}
       </div>
     </>
   );

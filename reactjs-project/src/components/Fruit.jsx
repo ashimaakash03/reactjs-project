@@ -1,11 +1,19 @@
 // eslint-disable-next-line react/prop-types
-const Fruit = (props) => {
+const Fruit = ({ name, price }) => {
   // eslint-disable-next-line react/prop-types
   return (
-    <li>
+    <>
       {/*eslint-disable-next-line react/prop-types*/}
-      {props.name} ${props.price}
-    </li>
+      {/* Name: {name}. Price: ${price} */}
+
+      {price >= 14 ? (
+        <li>
+          Name: {name}. Price: ${price}{" "}
+        </li>
+      ) : (
+        " "
+      )}
+    </>
   );
 };
 
