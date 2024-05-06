@@ -1,12 +1,15 @@
 //import Conditional from "./components/Conditional";
-import Fruits from "./components/Fruits";
+//import Fruits from "./components/Fruits";
+
+import Message from "./components/Message";
+
 function App() {
   return (
     <>
-      <h3>Fresh Fruits For The Day: </h3>
       <div className="App">
-        <Fruits />
+        {/* <Fruits /> */}
         {/* <Conditional /> */}
+        <Message />
       </div>
     </>
   );
