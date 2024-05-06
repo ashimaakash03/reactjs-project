@@ -1,19 +1,21 @@
 const Fruits = () => {
   //const fruits = ["Apple", "Mango", "Banana", "Orange", "Pineapple"];
   const fruits = [
-    { name: "Apple", price: 10 },
-    { name: "Mango", price: 12 },
-    { name: "Banana", price: 14 },
-    { name: "Orange", price: 16 },
-    { name: "Pineapple", price: 18 },
+    { id: 1, name: "Apple", price: 10 },
+    { id: 2, name: "Mango", price: 12 },
+    { id: 3, name: "Banana", price: 14 },
+    { id: 4, name: "Orange", price: 16 },
+    { id: 5, name: "Pineapple", price: 18 },
   ];
   return (
     <div>
-      {/* <ul>
+      <ul>
         {fruits.map((fruit) => (
-          <li key={fruit}>{fruit}</li>
+          <li key={fruit.id}>
+            Name: {fruit.name} Price: {fruit.price}
+          </li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };
