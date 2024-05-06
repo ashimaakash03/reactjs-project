@@ -1,5 +1,5 @@
 import Hello from "./components/Hello";
-
+import Fruits from "./components/Fruits";
 function App() {
 
 
@@ -15,6 +15,7 @@ function App() {
       <Hello
         person= {person}
       />
+      <Fruits />
     </>
   );
 }
