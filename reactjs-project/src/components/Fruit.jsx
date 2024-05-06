@@ -1,6 +1,7 @@
 // eslint-disable-next-line react/prop-types
-const Fruit = ({name, price}) => {
-  return <li>{name} ${price}</li>;
+const Fruit = (props) => {
+  // eslint-disable-next-line react/prop-types
+  return <li>{props.name} ${props.price}</li>;
 };
 
 export default Fruit;
